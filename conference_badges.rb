@@ -6,8 +6,9 @@ end
 
 def batch_badge_creator(attendees)
   attendees.each do |attendee|
-   "Hello my name is #{attendee}."
+   puts "Hello my name is #{attendee}."
 end
 
 def assign_rooms(attendees)
-  "Hello, #{atendeee}! You'll be assigned to room #{}!"
+  attendees.each do |atendee|
+    puts "Hello, #{atendeee}! You'll be assigned to room #{}!"
